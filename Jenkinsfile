@@ -5,7 +5,7 @@ pipeline {
       steps {
         echo 'hai'
         sh 'echo "Hello World"'
-        sh 'python pgm.py'
+        sh 'ls'
       }
     }
   }
